@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_distance_next_turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="700px"
+        android:layout_y="84px"
+        android:background="@drawable/next_distance_bg"
+        android:text="300 ft"
+        android:textColor="#111111"
+        android:textSize="20sp"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_next_street_name"
+        android:layout_width="638px"
+        android:layout_height="wrap_content"
+        android:layout_x="171px"
+        android:layout_y="147px"
+        android:text="ohio st"
+        android:textColor="#CCCCCC"
+        android:textSize="24sp"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_current_street"
+        android:layout_width="822px"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="8px"
+        android:gravity="center"
+        android:text="lake shore dr"
+        android:textColor="#999999"
+        android:textSize="28sp"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_destination_name"
+        android:layout_width="398px"
+        android:layout_height="wrap_content"
+        android:layout_x="605px"
+        android:layout_y="336px"
+        android:text="the tower"
+        android:textColor="#ffffff"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_eta"
+        android:layout_width="398px"
+        android:layout_height="wrap_content"
+        android:layout_x="605px"
+        android:layout_y="297px"
+        android:text="15:00"
+        android:textColor="#ffffff"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_destination_distance"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:layout_x="852px"
+        android:layout_y="256px"
+        android:text="500 mi"
+        android:textColor="#ffffff"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_speed_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40px"
+        android:layout_y="222px"
+        android:text="70"
+        android:textColor="#ffffff"
+        android:textSize="60sp"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_current_speed"
+        android:layout_width="665px"
+        android:layout_height="wrap_content"
+        android:layout_x="90px"
+        android:layout_y="168px"
+        android:gravity="center"
+        android:text="51"
+        android:textColor="#ffffff"
+        android:textSize="220sp"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_speed_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="375px"
+        android:layout_y="600px"
+        android:text="mph"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        />
+
+    <cognitiveai.skin1.MirroredTextView
+        android:id="@+id/tv_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="900px"
+        android:layout_y="10px"
+        android:text="11:46 AM"
+        android:textColor="#ffffff"
+        />
+
+    <cognitiveai.skin1.MirroredImageView
+        android:id="@+id/direction_arrow"
+        android:layout_width="174px"
+        android:layout_height="174px"
+        android:layout_x="830px"
+        android:layout_y="50px"
+        android:src="@drawable/da_turn_left"
+        />
+
+    <cognitiveai.skin1.MirroredImageView
+        android:layout_width="195px"
+        android:layout_height="195px"
+        android:layout_x="818px"
+        android:layout_y="43px"
+        android:alpha="0.2"
+        android:src="@drawable/next_distance_bg"
+        />
+
+
+</AbsoluteLayout>
